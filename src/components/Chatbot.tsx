@@ -21,7 +21,7 @@ export function Chatbot() {
             <div key={index} className={`mb-4 p-3 rounded-lg ${
               m.role === 'user' 
                 ? 'bg-blue-100 text-blue-900 ml-12' 
-                : 'bg-gray-100 text-gray-900 mr-12'
+                : 'bg-grey-100 text-grey-900 mr-12'
             }`}>
               <div className="text-xs font-semibold mb-1 uppercase tracking-wide opacity-70">
                 {m.role === 'user' ? 'You' : 'Assistant'}
@@ -57,7 +57,7 @@ export function Chatbot() {
         <div className="flex items-center p-2">
           <form className="flex-1 flex gap-2" onSubmit={handleSubmit}>
             <Input placeholder="Type your message here..." value={input} onChange={handleInputChange} />
-            <Button type="submit" className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-semibold px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105">
+            <Button type="submit" className="bg-gradient-to-r from-green-500 to-purple-600 hover:from-blue-600 hover:to-indigo-700 text-white font-semibold px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
               </svg>
