@@ -20,8 +20,8 @@ export function Chatbot() {
           {messages.map((m, index) => (
             <div key={index} className={`mb-4 p-3 rounded-lg ${
               m.role === 'user' 
-                ? 'bg-blue-100 text-blue-900 ml-12' 
-                : 'bg-grey-100 text-grey-900 mr-12'
+                ? 'bg-green-100 text-green-900 ml-12' 
+                : 'bg-purple-100 text-purple-900 mr-12'
             }`}>
               <div className="text-xs font-semibold mb-1 uppercase tracking-wide opacity-70">
                 {m.role === 'user' ? 'You' : 'Assistant'}
