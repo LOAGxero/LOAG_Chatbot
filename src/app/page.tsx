@@ -6,7 +6,7 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-br from-black-100 to-black-100 flex flex-col items-center p-8">
       <div className="w-full max-w-4xl">
         <h1 className="mb-8 text-6xl font-bold text-center bg-gradient-to-r from-green-600 to-purple-600 bg-clip-text text-transparent">
-          LOAG&apos;s Chatbot
+          Daylan&apos;s Chatbot
         </h1>
         <div className="bg-white rounded-2xl shadow-xl p-6">
           <Chatbot/>
